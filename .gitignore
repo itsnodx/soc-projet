@@ -37,3 +37,12 @@ docker-volumes/
 *.key
 *.pem
 *.csr
+
+# Generated Wazuh TLS certificates and credentials
+wazuh/single-node/config/wazuh_indexer_ssl_certs/
+wazuh/single-node/config/wazuh_indexer/internal_users.yml
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
